@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/store.css">
+  <link rel="icon" href="./img/logo.jpg" type="image/x-icon">
+  <title>Aqours | オンラインストア</title>
+</head>
+<body>
+  <div class="hero">
+    <header>
+      <div class="logo">
+        <a href="index.html"><img class="logo" src="./img/logo.png" alt="logo"></a>
+      </div>
+      <div class="menu-icon" id="menu-icon">
+        <!-- ハンバーガーメニューのアイコン -->
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-list" id="menu-list">
+        <ul>
+          <li><img src="./img/logo.jpg" alt="" class="pc-none"></li>
+          <li><a href="index.html#news"><p>ニュース</p></a></li>
+          <li><a href="index.html#recruit"><p>採用情報</p></a></li>
+          <li><a href="index.html#contact"><p>お問い合わせ</p></a></li>
+          <li><a href=""><img src="./img/img012.png" alt=""><p>オンラインストア</p></a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="store-ttl">
+      <p>AQOURS　ONLINE　STORE</p>
+    </div>
+    <img src="./img/imgWide004.jpg" alt="" class="top-image">
+  </div>
+  <div class="filters__wrap">
+		<div class="filters">
+      <div class="total-items" id="total-items">
+				<!-- 商品数の表示 -->
+			</div>
+			<div class="sort__wrap">
+				<input type="text" id="search" placeholder="商品名で検索">
+				<select id="sort">
+					<option value="default"></option>
+          <option value="popularity">人気順</option>
+          <option value="new">新商品</option>
+					<option value="price-asc">価格の安い順</option>
+					<option value="price-desc">価格の高い順</option>
+				</select>
+			</div>
+		</div>
+	</div>
+	<!-- 商品エリア -->
+	<div class="search-result__wrap">
+		<div class="search-result">
+			<div id="product-list" class="product-list">
+				<!-- 商品がこの中に挿入されます -->
+			</div>
+		</div>
+	</div>
+  <footer class="footer">
+    <p class="copyright">© 2000 Aqours Inc. All Rights Reserved.</p>
+    <ul class="md-flex">
+      <li><a href="#">サイトマップ</a></li>
+      <li><a href="#">プライバシーポリシー</a></li>
+    </ul>
+  </footer>
+  <script src="./js/script.js"></script>
+  <script src="./js/header.js"></script>
+</body>
+</html>
